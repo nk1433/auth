@@ -1,0 +1,41 @@
+# Ignores
+## General
+.*
+*.tgz
+
+## Stack
+node_modules
+
+# Excludes
+## General
+
+!.git*
+!.npmignore
+!.npmrc
+!.dockerignore
+
+
+## Dev
+!.editorconfig
+!.eslint*
+dist
+componentDist
+!.vscode
+.vscode/*
+!.vscode/launch.json
+
+# Test coverage directory
+coverage
+
+# Logs
+logs
+*.log
+
+# ngrok tunnel file
+config/tunnel.pid
+
+# extensions build output
+extensions/*/build
+
+# Node library SQLite database
+web/database.sqlite
